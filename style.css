@@ -1,0 +1,85 @@
+body{
+  margin: 0;
+  padding: 0;
+  height: auto;
+}
+/**{
+  border: solid 1px;
+}
+*/
+#topBtn{
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  color: white;
+  background-color: #0d47a1;
+  z-index: 999;
+  left: 20%
+  top: 20%;
+  cursor: pointer;
+}
+#topBtn i{
+  position: absolute;
+  transform: translate(30%,30%);
+}
+.topNav{
+  height: 70px;
+  justify-content: center;
+}
+nav{
+  z-index: 999;
+}
+.reverse{
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  padding: 20px;
+  font-weight: 400;
+}
+.reverse i{
+  transform: scale(1.5);
+  margin-left: 5px;
+  margin-top: -2px;
+}
+.member{
+  margin-left: 720px;
+}
+.brand-logo i{
+  transform: scale(1.5);
+  padding-right: 30px;
+}
+#nav-mobile{
+  padding-left: 20px;
+}
+.fixed{
+  position: fixed;
+  top: 0;
+}
+.card-content li{
+  list-style: none;
+}
+
+.maintext{
+  font-size: 20px;
+  color: #7a7a7a;
+  line-height: 35px;
+}
+
+.text-blue{
+  color: #0d47a1;
+}
+
+.linedivid{
+  width: 140px;
+  height: 10px;
+  margin-top: -5px;
+  margin-bottom: 15px;
+  background: #0d47a1;
+}
+
+.content{
+  margin-right: 15px;
+}

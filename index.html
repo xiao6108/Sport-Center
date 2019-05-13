@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <script src="main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="topBtn"><i class="material-icons">keyboard_capslock</i></div>
+  <div class="parallax">
+    <div class="topNav">
+        <a class="reverse waves-effect waves-light btn modal-trigger blue darken-3" href="#modal1">預約時間<i class="material-icons left">date_range</i></a>
+
+        <!-- Modal Structure -->
+        <div id="modal1" class="modal">
+          <div class="modal-content">
+            <h4>預約方式</h4>
+            <p>團體課程採預約制，可登入官網、APP預約8日內之課程<br>每日早上9:00（GMT+8）開放第8日課程預約，可預約之未使用堂數上限為3堂。<br>尚未額滿之課程皆可預約，課程開始前5分鐘內即不再接受預約。<br>1.當官網、APP顯示課程預約額滿，至開課前5分鐘可登記候補名單。當預約名額釋出時，將以Email、APP（推播時間為每日08:00~23:00
+            <br>依下列規則通知候補會員：<br>開課前3小時(含)以上：接獲通知後即視為候補成功登上預約正取，如無法上課者應於開課前3小時(含)以上至官網、APP取消。<br>開課前3小時內：接獲保留席次通知，仍應於開課前5分鐘(含)以上親至會館簽到。<br>未候補成功得於開課前5分鐘(含)以上親至會館，並應換妥運動服於現場等候櫃台人員將依序唱名，安排現場候補會員遞補上課，唱名3次未出現即由下一順位遞補。<br>會籍可使用堂數已達上限時，預約系統將自動移除您已登記候補名單之資格。</p>
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <nav>
+    <div class="nav-wrapper blue darken-4">
+      <a href="#" class="brand-logo right"><i class="material-icons left">healing</i></a>
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li><a href="#section_fee">收費方式</a></li>
+        <li><a href="#section_activity">活動訊息</a></li>
+        <li><a href="#section_transport">交通方式</a></li>
+        <li class="member"><a href="">健身房<span class="new badge blue lighten-2">288人</span></a></li>
+        <li><a href="">游泳池<span class="new badge blue lighten-2">57人</span></a></li>
+      </ul>
+    </div>
+  </nav>
+
+    <div class="parallax-container">
+      <div class="parallax"><img src="public/sport-center.jpg"></div>
+    </div>
+    <div class="section white">
+      <div class="row container">
+        <h4 class="header text-blue">我們的場館·你的主場</h4>
+        <div class="linedivid" style="width: 175px"></div>
+        <h6 class="maintext" data-bottom-top="transform: translateY(-30px);opacity: 0" data-center="transform: translateY(0px);opacity: 1">✔ 六大必要之核心運動設施的動線設計上，分層明瞭的將各項運動分布在各樓層，讓民眾可以很清楚的挑選所需要的運動設施。<br>✔ 籃球場為目前台中運動中心唯一木質地板設計，吸收高衝擊的特性，可以有效的避免運動傷害。<br>✔ 中心所有的課程在設計上，並不是期別式的開課，市民不需要等開課，隨時來即可報名開始上課。<br>✔ 專屬十五公尺教學游泳池，讓學習游泳的學員可以有一個安全及安心的場地可以練習。<br>✔ 在體適能中心規劃的設備及游泳池使用器材規定，可以使用鐵人三項所需要器材，發展推廣鐵人三項運動。<br>✔ 一樓設置有輕食餐飲及休息區，讓運動市民可以有一個補給及休息地方，讓等候孩子上課的家長可以有一個舒適的等候空間。<br>✔ 停車場設計方便，可以直接從停車場搭電梯到各樓層。機車部分中心週邊規畫96格機車位，讓騎車民眾方便停車。</h6>
+      </div>
+    </div>
+
+    <hr id="section_fee">
+<!-- sidebar -->
+    <div class="row">
+      <div class="col hide-on-small-only m3 l2">
+        <ul class="section table-of-contents">
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Line</a></li>
+        </ul>
+      </div>
+    </div>
+<!-- 課程內容 -->
+    <div class="container">
+      <div class="row">
+        <h4 class="header text-blue">課程資訊·收費方式</h4>
+        <div class="linedivid"></div>
+        <div class="col s12 m3" data-bottom-top="transform: translateY(-20px);opacity: 0.3" data-center="transform: translateY(0px);opacity: 1">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="public/spinning.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">飛輪課程<i class="material-icons right">drag_handle</i></span>
+                <li>
+                  <div class="collapsible-header"><i class="material-icons">fitness_center</i>肌力雕朔</div>
+                </li>
+                <li>
+                  <div class="collapsible-header"><i class="material-icons">directions_bike</i>飛輪運動</div>
+                </li>
+                <li>
+                  <div class="collapsible-header"><i class="material-icons">face</i>功率系列</div>
+                </li>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">NT$ 250起<i class="material-icons right">close</i></span>
+              <p>10:15｜入門階梯</p>
+              <p>12:20｜拳擊飛輪</p>
+              <p>13:30｜飛輪快樂旅程</p>
+              <p>14:50｜舞蹈飛輪</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m3" data-bottom-top="transform: translateY(-20px);opacity: 0.3" data-center="transform: translateY(0px);opacity: 1">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="public/yoga.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">有氧瑜珈課程<i class="material-icons right">drag_handle</i></span>
+                <li>
+                  <div class="collapsible-header"><i class="material-icons">accessibility</i>韻律有氧</div>
+                </li>
+                <li>
+                  <div class="collapsible-header"><i class="material-icons">favorite</i>瑜伽運動</div>
+                </li>
+                <li>
+                  <div class="collapsible-header"><i class="material-icons">child_care</i>幼兒系列</div>
+                </li>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">NT$ 250起<i class="material-icons right">close</i></span>
+              <p>10:15｜功能性有氧</p>
+              <p>12:20｜倫巴有氧</p>
+              <p>13:30｜自由瑜伽</p>
+              <p>14:50｜舞蹈有氧</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m3" data-bottom-top="transform: translateY(-20px);opacity: 0.3" data-center="transform: translateY(0px);opacity: 1">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="public/swimm.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">游泳課程<i class="material-icons right">drag_handle</i></span>
+                <li>
+                  <div class="collapsible-header"><i class="material-icons">whatshot</i>幼兒游泳</div>
+                </li>
+                <li>
+                  <div class="collapsible-header"><i class="material-icons">pool</i>青少游泳</div>
+                </li>
+                <li>
+                  <div class="collapsible-header"><i class="material-icons">hot_tub</i>成人游泳</div>
+                </li>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">NT$ 350起<i class="material-icons right">close</i></span>
+              <p>10:15｜燃脂游泳</p>
+              <p>12:20｜游泳舞蹈</p>
+              <p>13:30｜熱氣游泳</p>
+              <p>14:50｜滑水練習</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m3" data-bottom-top="transform: translateY(-20px);opacity: 0.3" data-center="transform: translateY(0px);opacity: 1">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="public/fitness.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">健身團課<i class="material-icons right">drag_handle</i></span>
+                <li>
+                  <div class="collapsible-header"><i class="material-icons">all_inclusive</i>全身減脂</div>
+                </li>
+                <li>
+                  <div class="collapsible-header"><i class="material-icons">forward_5</i>循環健身</div>
+                </li>
+                <li>
+                  <div class="collapsible-header"><i class="material-icons">directions_run</i>跑步健身</div>
+                </li>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">NT$ 400起<i class="material-icons right">close</i></span>
+              <p>10:15｜肌力雕塑</p>
+              <p>12:20｜仰臥起坐</p>
+              <p>13:30｜撐體雕朔</p>
+              <p>14:50｜耐力循環</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr id="section_activity">
+
+      <div class="row">
+        <h4 class="header text-blue">場館公告·活動訊息</h4>
+        <div class="linedivid"></div>
+<!-- 活動訊息 -->
+      <div class="row" data-bottom-top="transform: translateY(-20px);opacity: 0.3" data-center="transform: translateY(0px);opacity: 1">
+        <div class="col s12 m6">
+          <ul class="collapsible">
+            <li>
+              <div class="collapsible-header"><i class="material-icons">cake</i>母親節特別企劃</div>
+              <div class="collapsible-body"><span>#2樓體適能健身中心母親節特別企劃<br>❤️5月12日母親節當天，媽媽們在二樓體適能中心拍照打卡設公開，並寫下「母親節健康媽媽動起來！」即享健身房媽媽本人免費入場。<br>❤️ 活動二 :溫馨五月每週日（5/12、19、26）共三天，邀請媽媽們挑戰「媽媽健康運動玩很大」關卡，由教練擔任關主，挑戰指定體適能動作成功者，即贈送價值200元inbody免費測量券乙張。</span></div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="material-icons">camera_alt</i>邊跑邊照，Share你的跑步熱點</div>
+              <div class="collapsible-body"><span>→ Step1. 於活動頁面勾選「參加」，並公開分享本活動(分享到動態消息)，分享自己參與跑步運動的心情及跑步熱點，號召親朋友好友一起參加。(貼文範例：跑步去！邊跑邊照，Share你的跑步熱點! #run99#運動紓壓)<br>→ Step2. 完成當周跑步任務（於活動頁面留言及上傳照片），達成者即可參與抽獎活動。<br>→ Step3. 於活動期間，完成至少三週以上的目標，即可參與抽大獎。</span></div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="material-icons">place</i>熱點打卡任務</div>
+              <div class="collapsible-body"><span>★第一周任務日期：10/27-11/02<br>★第二周任務日期：11/03-11/09<br>★第三周任務日期：11/10-11/16<br>★第四周任務日期：11/17-11/23</span></div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="material-icons">pets</i>寵物跑步競賽</div>
+              <div class="collapsible-body"><span>★第一周任務日期：10/27-11/02<br>iron gril 51.5女生個人組 / 中心團報優惠價3500元<br>(自行上網報名費用3951元)<br>iron gril 51.5女生接力組 / 中心團報優惠價6600元(自行上網報名費用7296</span></div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="material-icons">public</i>室內⚽️暢玩</div>
+              <div class="collapsible-body"><span><p>自五月份開始，每週六晚上19:00~22:00，一人收費100元，限名額30位，凡年滿16歲歡迎踴躍參加。</p></span></div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="material-icons">pregnant_woman</i>孕婦專屬課程</div>
+              <div class="collapsible-body"><span>2020 IRONMAN 70.3 TAIWAN 婦女 <br>#比賽日期：2020年3月15日(日)<br>#南屯運動中心超級團體報名優惠：<br>113個人組 / 中心團報優惠價9700元(自行上網報名費用11642元)<br>113接力組 / 中心團報優惠價14100元(自行上網報名費用15803元)</span></div>
+            </li>
+          </ul>
+        </div>
+        <div class="col s12 m6">
+            <div class="slider">
+              <ul class="slides">
+                <li>
+                  <img src="public/3.jpg"> <!-- random image -->
+                  <div class="caption center-align">
+                    <h3>This is our big Tagline!</h3>
+                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                  </div>
+                </li>
+                <li>
+                  <img src="public/1.jpg"> <!-- random image -->
+                  <div class="caption left-align">
+                    <h3>Left Aligned Caption</h3>
+                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                  </div>
+                </li>
+                <li>
+                  <img src="public/2.jpg"> <!-- random image -->
+                  <div class="caption right-align">
+                    <h3>Right Aligned Caption</h3>
+                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                  </div>
+                </li>
+                <li>
+                  <img src="public/4.jpg"> <!-- random image -->
+                  <div class="caption center-align">
+                    <h3>This is our big Tagline!</h3>
+                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                  </div>
+                </li>
+              </ul>
+            </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+<!-- Google Map -->
+<div id="section_transport" class="parallax-container" style="margin-top: 100px">
+  <div class="parallax">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3640.9656345248677!2d120.63290671497377!3d24.137844979781548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34693dcefb58b819%3A0xf194b1076fcd112e!2zNDA45Y-w5Lit5biC5Y2X5bGv5Y2A5paH5piM6KGXMjI35be3MznomZ8!5e0!3m2!1szh-TW!2stw!4v1557554024130!5m2!1szh-TW!2stw" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+</div>
+
+
+<!-- Footer -->
+<footer class="page-footer blue darken-4">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="white-text">亞宸運動中心</h5>
+        <p class="grey-text text-lighten-4">臺中市南屯區黎明路一段1002號<br>(04) 2222-3333<br>yachensport@gmail.com<br>營業時間每日06:00~22:00</p>
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="white-text">聯絡我們</h5>
+        <ul>
+          <li><a class="grey-text text-lighten-3" href="#section_fee">收費方式</a></li>
+          <li><a class="grey-text text-lighten-3" href="#section_activity">活動訊息</a></li>
+          <li><a class="grey-text text-lighten-3" href="#section_transport">交通方式</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+    © 2019 Copyright Text
+    <a class="content grey-text text-lighten-4 right" href="#!">Facebook</a>
+    <a class="content grey-text text-lighten-4 right" href="#!">Instagram</a>
+    <a class="content grey-text text-lighten-4 right" href="#!">Line</a>
+    </div>
+  </div>
+</footer>
+  <script type="text/javascript">
+
+    $(document).ready(function(){
+
+      var s = skrollr.init();
+      var navOffset = $('nav').offset().top;
+      $(window).scroll(function(){
+        var scrollPos = $(window).scrollTop();
+        if (scrollPos >= navOffset) {
+          $('nav').addClass("fixed");
+          $('#topBtn').fadeIn();
+        } else{
+          $('nav').removeClass("fixed");
+          $('#topBtn').fadeOut();
+        };
+      });
+      $('.modal').modal();
+      $('.parallax').parallax();
+      $('.scrollspy').scrollSpy();
+      $('.collapsible').collapsible();
+      $('.slider').slider();
+
+      $('#topBtn').click(function(){
+        $('html, body').animate({scrollTop: 0}, 800)
+      })
+    });
+  </script>
+
+
+</body>
+</html>
